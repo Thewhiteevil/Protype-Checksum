@@ -1,0 +1,11 @@
+let person = {name: 'Thewhiteevil'}
+console.log(person.name)
+// Thewhiteevil
+
+person.__proto__.toString = () => {alert('evil')}
+console.log(person.name)
+// an alert box with "evil" pops up
+
+let person2 = {}
+console.log(person2)
+// {}
